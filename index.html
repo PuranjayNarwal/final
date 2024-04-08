@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+
+
+  <div class="container"><br>
+    <div><br></div>
+    <h1>Weather Buddy</h1>
+    <div class="card card-1">
+      <div id="demo" class="carousel slide1" data-ride="carousel">
+
+        <!-- Indicators -->
+
+        <h1>Current Time Weather</h1>
+        <!-- The slideshow -->
+        <div class=cont>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-6">
+                  <div class="temp">
+                    <span id="temp1"></span><span id="temprature">
+                      --&deg;</span>
+                  </div><br>
+                  <div class="location">
+                    <b> City:</b>
+                    <span id="loc2">--</span>
+                  </div>
+                  <div class="location">
+                    <p><b>&nbsp;&nbsp;&nbsp;Wind Speed:</b><span id="wind_sp">--</span></p>
+                  </div>
+                  <div class="location">
+                    <p><b>&nbsp;&nbsp;&nbsp;Humidity:</b><span id="humidity">--</span></p>
+                  </div><br>
+
+                  <div class="location">
+                    <p><b>Minimum Temprature:</b><span id="min_temp">--</span></p>
+                  </div>
+                  <div class="location">
+                    <p><b>&nbsp;&nbsp;&nbsp;Maximum Temprature:</b><span id="max_temp">--</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <div><input type="text" id="place" class="inputb">
+                <button id="button" class="btn"> Search</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card card-2">
+      <tr>
+        <div id="demo" class="row" data-ride="carousel">
+
+          <!-- Indicators UL tag removed.-->
+
+
+          <!-- The slideshow -->
+          <div class="cont">
+
+            <div class="row">
+              <H1>Hourly Forecast</H1>
+
+              <b>
+                <div class="row row2">
+                  <span class="img-fluid" id="1weath">--</span>
+                </div>
+                <div class="row row1" id="deg1">--&deg;</div>
+                <div class="row row3" id="clo1">--:--</div>
+
+                <div class="row row2">
+                  <span class="img-fluid" id="2weath">--</span>
+                </div>
+                <div class="row row1" id="deg2">--&deg;</div>
+                <div class="row row3" id="clo2">--:--</div>
+
+                <div class="row row2">
+                  <span class="img-fluid" id="3weath">--
+                  </span>
+                </div>
+                <div class="row row1" id="deg3">--&deg;</div>
+                <div class="row row3" id="clo3">--:--</div>
+
+                <div class="row row2">
+                  <span class="img-fluid" id="4weath">--</span>
+                </div>
+                <div class="row row1" id="deg4">--&deg;</div>
+                <div class="row row3" id="clo4">--:--</div>
+
+                <div class="row row2">
+                  <span class="img-fluid" id="5weath">--
+                  </span>
+                </div>
+                <div class="row row1" id="deg5">--&deg;</div>
+                <div class="row row3" id="clo5">--:--</div>
+              </b>
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </tr>
+    </div>
+
+    <div class="card card-3">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators ul tag removed-->
+
+
+        <!-- The slideshow -->
+
+        <div class="cont"></div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row" style="padding-left: 30px;" style="padding-right: 100px;">
+              <h1>Day wise Weather Forecast<h1>
+
+                  <div class="row row2"><span class="img-fluid" id="6th_weath">--</span>
+                  </div>
+                  <div class="row row1" id="daytem1">--&deg;</div>
+                  <div class="row row3" id="day1">--</div>
+
+
+
+                  <div class="row row2"><span class="img-fluid" id="7th_weath">--</span>
+                  </div>
+                  <div class="row row1" id="daytem2">--&deg;</div>
+                  <div class="row row3" id="day2">--</div>
+
+
+
+                  <div class="row row2"><span class="img-fluid" id="8th_weath">--
+                    </span></div>
+                  <div class="row row1" id="daytem3">--&deg;</div>
+                  <div class="row row3" id="day3">--</div>
+
+
+
+                  <div class="row row2"><span class="img-fluid" id="9th_weath">--</span></div>
+                  <div class="row row1" id="daytem4">--&deg;</div>
+                  <div class="row row3" id="day4">--</div>
+
+
+
+                  <div class="row row2"><span class="img-fluid" id="10th_weath">--
+                    </span></div>
+                  <div class="row row1" id="daytem5">--&deg;</div>
+                  <div class="row row3" id="day5">--</div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

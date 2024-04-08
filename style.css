@@ -1,0 +1,95 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(0,0,0);
+  font-family: sans-serif;
+  background-image: url("clode2.jpg");
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card {
+  padding: 1.3rem 3rem 1rem 3rem;
+  margin: 3.5rem;
+  border-radius: 1.5rem;
+  background-color: rgba(243, 255, 255, 0.3);
+  border-color: rgb(128, 128, 133);
+  box-shadow: 5px 8px 10px #ffffff;
+}
+
+.temp,
+.location,
+.row1,
+.row2,
+.row3,
+.row4 {
+  white-space: nowrap;
+  /* Ensure text doesn't wrap to next line */
+  text-align: center;
+  /* Center the text horizontally */
+  display: inline-block;
+  /* Display the text in a single line */
+}
+
+.temp {
+  font-size: 5rem;
+  color: rgb(57, 57, 58);
+}
+
+.location,
+.row1,
+.row2,
+.row3,
+.row4 {
+  margin-bottom: 0.5rem;
+  /* Adjust spacing between rows */
+  font-size: 1rem;
+  /* Adjust font size */
+}
+
+.img-fluid {
+  font-size: 50px;
+  align-self: left;
+  align-items: center;
+  display: inline-block;
+
+}
+
+.carousel-slide {
+  max-height: 100px;
+}
+
+.location {
+  margin-left: 5px;
+
+}
+
+.inputb {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(255,255,255);
+}
+
+.btn {
+  font-size: 18px;
+  border-radius: 5px;
+  font-family: cursive;
+  background-color: rgb(129, 192, 207);
+}
